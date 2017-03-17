@@ -15,6 +15,7 @@
 		8B587E871E6851E900DBA276 /* Application_de_oufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E861E6851E900DBA276 /* Application_de_oufTests.swift */; };
 		8B587E921E6851E900DBA276 /* Application_de_oufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */; };
 		8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */; };
+		8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7D1E7BF28300565F9F /* Origin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_de_oufUITests.swift; sourceTree = "<group>"; };
 		8B587E931E6851EA00DBA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Statistique.swift; path = "Application de ouf/Class/Statistique.swift"; sourceTree = "<group>"; };
+		8BA1CD7D1E7BF28300565F9F /* Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8B587E651E6851E000DBA276 = {
 			isa = PBXGroup;
 			children = (
+				8BA1CD7D1E7BF28300565F9F /* Origin.swift */,
 				8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */,
 				8B587E701E6851E900DBA276 /* Application de ouf */,
 				8B587E851E6851E900DBA276 /* Application de oufTests */,
@@ -265,6 +268,7 @@
 				8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */,
 				8B587E741E6851E900DBA276 /* ViewController.swift in Sources */,
 				8B587E721E6851E900DBA276 /* AppDelegate.swift in Sources */,
+				8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

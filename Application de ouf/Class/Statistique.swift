@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Statistique: NSObject {
+class Statistique {
     var force,charisme,adresse,courage,intelligence: Int
     
     
@@ -19,6 +19,20 @@ class Statistique: NSObject {
         self.adresse = _adresse;
         self.courage = _courage;
         self.intelligence = _Intelligence;
+    }
+    
+    func isStatSuperieur(_stat:Statistique) ->Bool{
+        if (_stat.force > self.force || _stat.charisme > self.charisme || _stat.adresse > self.adresse || _stat.courage > self.courage||_stat.intelligence > self.intelligence) {
+            return true;
+        }
+        return false;
+    }
+    
+    func isStatInferieur(_stat:Statistique) ->Bool{
+        if (_stat.force < self.force || _stat.charisme < self.charisme || _stat.adresse < self.adresse || _stat.courage < self.courage||_stat.intelligence < self.intelligence) {
+            return true;
+        }
+        return false;
     }
 
 }
