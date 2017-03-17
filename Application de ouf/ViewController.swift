@@ -44,12 +44,6 @@ class ViewController: UIViewController {
         resultDice3.text = String(Int(arc4random_uniform(UInt32(6)))+7)
         resultDice4.text = String(Int(arc4random_uniform(UInt32(6)))+7)
         resultDice5.text = String(Int(arc4random_uniform(UInt32(6)))+7)
-        
-        resultDice1.textAlignment = NSTextAlignment.center
-        resultDice2.textAlignment = NSTextAlignment.center
-        resultDice3.textAlignment = NSTextAlignment.center
-        resultDice4.textAlignment = NSTextAlignment.center
-        resultDice5.textAlignment = NSTextAlignment.center
       
         randomDice.isEnabled = false
     }
@@ -103,5 +97,18 @@ class ViewController: UIViewController {
             fieldDexterity.text = ""
         }
     }
+    @IBAction func CheckSumStat(_ sender: UIButton) {
+        let sumOfStats = Int(resultDice1.text!)! + Int(resultDice2.text!)! + Int(resultDice3.text!)! + Int(resultDice4.text!)! + Int(resultDice5.text!)!
+        
+        let sumOfField = Int(fieldStrenght.text!)! + Int(fieldIntel.text!)! + Int(fieldCourage.text!)! + Int(fieldCharism.text!)! + Int(fieldDexterity.text!)!
+
+        if(sumOfStats != sumOfField)
+        {
+            alertView.show()
+        } else {
+            performSegue(withIdentifier: "Saved",sender: nil)
+        }
+    }
+    
 }
 
