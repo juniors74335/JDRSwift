@@ -9,16 +9,18 @@
 import UIKit
 
 class PickerViewController: UIViewController {
+    
+
 
     @IBOutlet weak var ListeMetier: UIPickerView!
     	
     @IBOutlet weak var ListeOrigin: UIPickerView!
     
-    var listAllOrigin:[Origin]
+    var listAllOrigin:[Origin] = []
     
-    var pickerData: [String]
+    var pickerData: [String] = []
     
-    var myStat: Statistique
+    weak var myStat: Statistique!
     
     override func viewDidLoad() {
         super.viewDidLoad()
