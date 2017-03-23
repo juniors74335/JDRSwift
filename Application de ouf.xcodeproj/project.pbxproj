@@ -15,9 +15,34 @@
 		8B587E871E6851E900DBA276 /* Application_de_oufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E861E6851E900DBA276 /* Application_de_oufTests.swift */; };
 		8B587E921E6851E900DBA276 /* Application_de_oufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */; };
 		8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */; };
+		8B99E3E31E83CD6F00B874C3 /* Metier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E21E83CD6F00B874C3 /* Metier.swift */; };
+		8B99E3E51E83D14100B874C3 /* Guerrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E41E83D14100B874C3 /* Guerrier.swift */; };
+		8B99E3E71E83DEAE00B874C3 /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E61E83DEAE00B874C3 /* Mage.swift */; };
+		8B99E3E91E83DF3B00B874C3 /* Assassin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E81E83DF3B00B874C3 /* Assassin.swift */; };
+		8B99E3EB1E83DF7A00B874C3 /* Voleur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3EA1E83DF7A00B874C3 /* Voleur.swift */; };
+		8B99E3ED1E83DFA200B874C3 /* Pretre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3EC1E83DFA200B874C3 /* Pretre.swift */; };
+		8B99E3EF1E83DFD100B874C3 /* Paladin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3EE1E83DFD100B874C3 /* Paladin.swift */; };
+		8B99E3F11E83DFF400B874C3 /* Ranger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3F01E83DFF400B874C3 /* Ranger.swift */; };
+		8B99E3F31E83E01C00B874C3 /* Menestrel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3F21E83E01C00B874C3 /* Menestrel.swift */; };
+		8B99E3F51E83E03900B874C3 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3F41E83E03900B874C3 /* Pirate.swift */; };
+		8B99E3F71E83E06000B874C3 /* Marchand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3F61E83E06000B874C3 /* Marchand.swift */; };
+		8B99E3F91E83E08600B874C3 /* Ingenieur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3F81E83E08600B874C3 /* Ingenieur.swift */; };
+		8B99E3FB1E83E0A900B874C3 /* Noble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3FA1E83E0A900B874C3 /* Noble.swift */; };
 		8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */; };
 		8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7D1E7BF28300565F9F /* Origin.swift */; };
 		8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */; };
+		8BA1CD821E83DDC300565F9F /* Barbare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD811E83DDC300565F9F /* Barbare.swift */; };
+		8BA1CD841E83DE2400565F9F /* Nain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD831E83DE2400565F9F /* Nain.swift */; };
+		8BA1CD861E83DEBD00565F9F /* HautElfe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD851E83DEBD00565F9F /* HautElfe.swift */; };
+		8BA1CD881E83DFBA00565F9F /* DemiElfe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD871E83DFBA00565F9F /* DemiElfe.swift */; };
+		8BA1CD8A1E83E01100565F9F /* ElfeSylvain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD891E83E01100565F9F /* ElfeSylvain.swift */; };
+		8BA1CD8C1E83E05C00565F9F /* ElfeNoir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD8B1E83E05C00565F9F /* ElfeNoir.swift */; };
+		8BA1CD8E1E83E0AC00565F9F /* Orque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD8D1E83E0AC00565F9F /* Orque.swift */; };
+		8BA1CD901E83E10500565F9F /* DemiOrque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD8F1E83E10500565F9F /* DemiOrque.swift */; };
+		8BA1CD921E83E16100565F9F /* Gobelin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD911E83E16100565F9F /* Gobelin.swift */; };
+		8BA1CD941E83E1E800565F9F /* SemieHomme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD931E83E1E800565F9F /* SemieHomme.swift */; };
+		8BA1CD961E83E23A00565F9F /* Ogre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD951E83E23A00565F9F /* Ogre.swift */; };
+		8BA1CD981E83E28700565F9F /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD971E83E28700565F9F /* Gnome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +77,34 @@
 		8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_de_oufUITests.swift; sourceTree = "<group>"; };
 		8B587E931E6851EA00DBA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		8B99E3E21E83CD6F00B874C3 /* Metier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metier.swift; sourceTree = "<group>"; };
+		8B99E3E41E83D14100B874C3 /* Guerrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guerrier.swift; sourceTree = "<group>"; };
+		8B99E3E61E83DEAE00B874C3 /* Mage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mage.swift; path = "Application de ouf/Class/Mage.swift"; sourceTree = "<group>"; };
+		8B99E3E81E83DF3B00B874C3 /* Assassin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assassin.swift; path = "Application de ouf/Class/Assassin.swift"; sourceTree = "<group>"; };
+		8B99E3EA1E83DF7A00B874C3 /* Voleur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Voleur.swift; path = "Application de ouf/Class/Voleur.swift"; sourceTree = "<group>"; };
+		8B99E3EC1E83DFA200B874C3 /* Pretre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pretre.swift; path = "Application de ouf/Class/Pretre.swift"; sourceTree = "<group>"; };
+		8B99E3EE1E83DFD100B874C3 /* Paladin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paladin.swift; path = "Application de ouf/Class/Paladin.swift"; sourceTree = "<group>"; };
+		8B99E3F01E83DFF400B874C3 /* Ranger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ranger.swift; path = "Application de ouf/Class/Ranger.swift"; sourceTree = "<group>"; };
+		8B99E3F21E83E01C00B874C3 /* Menestrel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menestrel.swift; path = "Application de ouf/Class/Menestrel.swift"; sourceTree = "<group>"; };
+		8B99E3F41E83E03900B874C3 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pirate.swift; path = "Application de ouf/Class/Pirate.swift"; sourceTree = "<group>"; };
+		8B99E3F61E83E06000B874C3 /* Marchand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Marchand.swift; path = "Application de ouf/Class/Marchand.swift"; sourceTree = "<group>"; };
+		8B99E3F81E83E08600B874C3 /* Ingenieur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ingenieur.swift; path = "Application de ouf/Class/Ingenieur.swift"; sourceTree = "<group>"; };
+		8B99E3FA1E83E0A900B874C3 /* Noble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Noble.swift; path = "Application de ouf/Class/Noble.swift"; sourceTree = "<group>"; };
 		8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Statistique.swift; path = "Application de ouf/Class/Statistique.swift"; sourceTree = "<group>"; };
 		8BA1CD7D1E7BF28300565F9F /* Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
 		8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Humain.swift; path = "Application de ouf/Humain.swift"; sourceTree = "<group>"; };
+		8BA1CD811E83DDC300565F9F /* Barbare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Barbare.swift; path = "Application de ouf/Class/Barbare.swift"; sourceTree = "<group>"; };
+		8BA1CD831E83DE2400565F9F /* Nain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nain.swift; path = "Application de ouf/Class/Nain.swift"; sourceTree = "<group>"; };
+		8BA1CD851E83DEBD00565F9F /* HautElfe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HautElfe.swift; path = "Application de ouf/Class/HautElfe.swift"; sourceTree = "<group>"; };
+		8BA1CD871E83DFBA00565F9F /* DemiElfe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemiElfe.swift; path = "Application de ouf/Class/DemiElfe.swift"; sourceTree = "<group>"; };
+		8BA1CD891E83E01100565F9F /* ElfeSylvain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElfeSylvain.swift; path = "Application de ouf/Class/ElfeSylvain.swift"; sourceTree = "<group>"; };
+		8BA1CD8B1E83E05C00565F9F /* ElfeNoir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElfeNoir.swift; path = "Application de ouf/Class/ElfeNoir.swift"; sourceTree = "<group>"; };
+		8BA1CD8D1E83E0AC00565F9F /* Orque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orque.swift; path = "Application de ouf/Class/Orque.swift"; sourceTree = "<group>"; };
+		8BA1CD8F1E83E10500565F9F /* DemiOrque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemiOrque.swift; path = "Application de ouf/Class/DemiOrque.swift"; sourceTree = "<group>"; };
+		8BA1CD911E83E16100565F9F /* Gobelin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gobelin.swift; path = "Application de ouf/Class/Gobelin.swift"; sourceTree = "<group>"; };
+		8BA1CD931E83E1E800565F9F /* SemieHomme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SemieHomme.swift; path = "Application de ouf/Class/SemieHomme.swift"; sourceTree = "<group>"; };
+		8BA1CD951E83E23A00565F9F /* Ogre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ogre.swift; path = "Application de ouf/Class/Ogre.swift"; sourceTree = "<group>"; };
+		8BA1CD971E83E28700565F9F /* Gnome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gnome.swift; path = "Application de ouf/Class/Gnome.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +135,6 @@
 		8B587E651E6851E000DBA276 = {
 			isa = PBXGroup;
 			children = (
-				8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */,
-				8BA1CD7D1E7BF28300565F9F /* Origin.swift */,
-				8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */,
 				8B587E701E6851E900DBA276 /* Application de ouf */,
 				8B587E851E6851E900DBA276 /* Application de oufTests */,
 				8B587E901E6851E900DBA276 /* Application de oufUITests */,
@@ -108,6 +155,7 @@
 		8B587E701E6851E900DBA276 /* Application de ouf */ = {
 			isa = PBXGroup;
 			children = (
+				8BA1CD991E83E48800565F9F /* Class */,
 				8B587E711E6851E900DBA276 /* AppDelegate.swift */,
 				8B587E731E6851E900DBA276 /* ViewController.swift */,
 				8B587E751E6851E900DBA276 /* Main.storyboard */,
@@ -135,6 +183,42 @@
 				8B587E931E6851EA00DBA276 /* Info.plist */,
 			);
 			path = "Application de oufUITests";
+			sourceTree = "<group>";
+		};
+		8BA1CD991E83E48800565F9F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8BA1CD971E83E28700565F9F /* Gnome.swift */,
+				8BA1CD951E83E23A00565F9F /* Ogre.swift */,
+				8BA1CD931E83E1E800565F9F /* SemieHomme.swift */,
+				8BA1CD911E83E16100565F9F /* Gobelin.swift */,
+				8BA1CD8F1E83E10500565F9F /* DemiOrque.swift */,
+				8BA1CD8D1E83E0AC00565F9F /* Orque.swift */,
+				8BA1CD8B1E83E05C00565F9F /* ElfeNoir.swift */,
+				8BA1CD891E83E01100565F9F /* ElfeSylvain.swift */,
+				8BA1CD871E83DFBA00565F9F /* DemiElfe.swift */,
+				8BA1CD851E83DEBD00565F9F /* HautElfe.swift */,
+				8BA1CD831E83DE2400565F9F /* Nain.swift */,
+				8BA1CD811E83DDC300565F9F /* Barbare.swift */,
+				8B99E3FA1E83E0A900B874C3 /* Noble.swift */,
+				8B99E3F81E83E08600B874C3 /* Ingenieur.swift */,
+				8B99E3F61E83E06000B874C3 /* Marchand.swift */,
+				8B99E3F41E83E03900B874C3 /* Pirate.swift */,
+				8B99E3F21E83E01C00B874C3 /* Menestrel.swift */,
+				8B99E3F01E83DFF400B874C3 /* Ranger.swift */,
+				8B99E3EE1E83DFD100B874C3 /* Paladin.swift */,
+				8B99E3EC1E83DFA200B874C3 /* Pretre.swift */,
+				8B99E3EA1E83DF7A00B874C3 /* Voleur.swift */,
+				8B99E3E81E83DF3B00B874C3 /* Assassin.swift */,
+				8B99E3E61E83DEAE00B874C3 /* Mage.swift */,
+				8B99E3E41E83D14100B874C3 /* Guerrier.swift */,
+				8B99E3E21E83CD6F00B874C3 /* Metier.swift */,
+				8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */,
+				8BA1CD7D1E7BF28300565F9F /* Origin.swift */,
+				8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */,
+			);
+			name = Class;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +356,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */,
+				8B99E3F11E83DFF400B874C3 /* Ranger.swift in Sources */,
 				8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */,
+				8BA1CD821E83DDC300565F9F /* Barbare.swift in Sources */,
+				8BA1CD961E83E23A00565F9F /* Ogre.swift in Sources */,
+				8BA1CD8E1E83E0AC00565F9F /* Orque.swift in Sources */,
 				8B587E741E6851E900DBA276 /* ViewController.swift in Sources */,
+				8BA1CD841E83DE2400565F9F /* Nain.swift in Sources */,
+				8BA1CD8A1E83E01100565F9F /* ElfeSylvain.swift in Sources */,
+				8BA1CD881E83DFBA00565F9F /* DemiElfe.swift in Sources */,
 				8B587E721E6851E900DBA276 /* AppDelegate.swift in Sources */,
+				8BA1CD901E83E10500565F9F /* DemiOrque.swift in Sources */,
+				8B99E3E51E83D14100B874C3 /* Guerrier.swift in Sources */,
+				8B99E3F51E83E03900B874C3 /* Pirate.swift in Sources */,
+				8B99E3E31E83CD6F00B874C3 /* Metier.swift in Sources */,
+				8B587E741E6851E900DBA276 /* ViewController.swift in Sources */,
+				8B99E3F91E83E08600B874C3 /* Ingenieur.swift in Sources */,
+				8B99E3EB1E83DF7A00B874C3 /* Voleur.swift in Sources */,
+				8B99E3F71E83E06000B874C3 /* Marchand.swift in Sources */,
+				8B587E721E6851E900DBA276 /* AppDelegate.swift in Sources */,
+				8B99E3E91E83DF3B00B874C3 /* Assassin.swift in Sources */,
 				8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */,
+				8B99E3FB1E83E0A900B874C3 /* Noble.swift in Sources */,
+				8B99E3F31E83E01C00B874C3 /* Menestrel.swift in Sources */,
 				8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */,
+				8BA1CD981E83E28700565F9F /* Gnome.swift in Sources */,
+				8BA1CD8C1E83E05C00565F9F /* ElfeNoir.swift in Sources */,
+				8BA1CD941E83E1E800565F9F /* SemieHomme.swift in Sources */,
+				8BA1CD921E83E16100565F9F /* Gobelin.swift in Sources */,
+				8BA1CD861E83DEBD00565F9F /* HautElfe.swift in Sources */,
+				8B99E3EF1E83DFD100B874C3 /* Paladin.swift in Sources */,
+				8B99E3ED1E83DFA200B874C3 /* Pretre.swift in Sources */,
+				8B99E3E71E83DEAE00B874C3 /* Mage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
