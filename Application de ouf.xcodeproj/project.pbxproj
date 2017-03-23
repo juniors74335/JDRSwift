@@ -14,6 +14,7 @@
 		8B587E7C1E6851E900DBA276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B587E7A1E6851E900DBA276 /* LaunchScreen.storyboard */; };
 		8B587E871E6851E900DBA276 /* Application_de_oufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E861E6851E900DBA276 /* Application_de_oufTests.swift */; };
 		8B587E921E6851E900DBA276 /* Application_de_oufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */; };
+		8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */; };
 		8B99E3E31E83CD6F00B874C3 /* Metier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E21E83CD6F00B874C3 /* Metier.swift */; };
 		8B99E3E51E83D14100B874C3 /* Guerrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E41E83D14100B874C3 /* Guerrier.swift */; };
 		8B99E3E71E83DEAE00B874C3 /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E61E83DEAE00B874C3 /* Mage.swift */; };
@@ -75,6 +76,7 @@
 		8B587E8D1E6851E900DBA276 /* Application de oufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Application de oufUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_de_oufUITests.swift; sourceTree = "<group>"; };
 		8B587E931E6851EA00DBA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		8B99E3E21E83CD6F00B874C3 /* Metier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metier.swift; sourceTree = "<group>"; };
 		8B99E3E41E83D14100B874C3 /* Guerrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guerrier.swift; sourceTree = "<group>"; };
 		8B99E3E61E83DEAE00B874C3 /* Mage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mage.swift; path = "Application de ouf/Class/Mage.swift"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				8B587E781E6851E900DBA276 /* Assets.xcassets */,
 				8B587E7A1E6851E900DBA276 /* LaunchScreen.storyboard */,
 				8B587E7D1E6851E900DBA276 /* Info.plist */,
+				8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */,
 			);
 			path = "Application de ouf";
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */,
 				8B99E3F11E83DFF400B874C3 /* Ranger.swift in Sources */,
 				8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */,
 				8BA1CD821E83DDC300565F9F /* Barbare.swift in Sources */,
@@ -366,11 +370,9 @@
 				8B99E3E51E83D14100B874C3 /* Guerrier.swift in Sources */,
 				8B99E3F51E83E03900B874C3 /* Pirate.swift in Sources */,
 				8B99E3E31E83CD6F00B874C3 /* Metier.swift in Sources */,
-				8B587E741E6851E900DBA276 /* ViewController.swift in Sources */,
 				8B99E3F91E83E08600B874C3 /* Ingenieur.swift in Sources */,
 				8B99E3EB1E83DF7A00B874C3 /* Voleur.swift in Sources */,
 				8B99E3F71E83E06000B874C3 /* Marchand.swift in Sources */,
-				8B587E721E6851E900DBA276 /* AppDelegate.swift in Sources */,
 				8B99E3E91E83DF3B00B874C3 /* Assassin.swift in Sources */,
 				8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */,
 				8B99E3FB1E83E0A900B874C3 /* Noble.swift in Sources */,
