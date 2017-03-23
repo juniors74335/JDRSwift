@@ -21,13 +21,13 @@ class Metier {
         listOriginValid = _listOrigin;
     }
     
-    func isOriginMetierValid(_jorigin:Origin) -> Bool{
+    func isOriginMetierNonValid(_jorigin:Origin) -> Bool{
         for origin in listOriginValid{
             if(origin.getNameOrigin() == _jorigin.getNameOrigin()){
-                return true;
+                return false;
             }
         }
-        return false
+        return true
     }
     
     func getNameMetier () -> String {
@@ -38,7 +38,7 @@ class Metier {
         var myReturn = true;
         myReturn =  !statMax.isStatSuperieur(_stat: anotherStat);
         myReturn = !statMin.isStatInferieur(_stat:anotherStat);
-        myReturn = self.isOriginMetierValid(_jorigin:_jorigin);
+        myReturn = self.isOriginMetierNonValid(_jorigin:_jorigin);
         
         return myReturn
     }
