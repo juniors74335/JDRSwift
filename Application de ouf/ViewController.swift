@@ -110,5 +110,10 @@ class ViewController: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let tets = segue.destination as! PickerViewController
+        
+        tets.myStat = Statistique(_force: Int(fieldStrenght.text!)!, _charisme: Int(fieldCharism.text!)!, _adresse: Int(fieldDexterity.text!)!, _courage: Int(fieldCourage.text!)!, _Intelligence: Int(fieldIntel.text!)!)
+    }
 }
 

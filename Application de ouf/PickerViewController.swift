@@ -14,12 +14,54 @@ class PickerViewController: UIViewController {
     	
     @IBOutlet weak var ListeOrigin: UIPickerView!
     
+    var listAllOrigin:[Origin]
+    
+    var pickerData: [String]
+    
+    var myStat: Statistique
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
+        listAllOrigin = [Origin]();
+        listAllOrigin.append(Orque())
+        listAllOrigin.append(DemiOrque())
+        listAllOrigin.append(Gnome())
+        listAllOrigin.append(Humain())
+        listAllOrigin.append(Barbare())
+        listAllOrigin.append(Nain())
+        listAllOrigin.append(HautElfe())
+        listAllOrigin.append(DemiElfe())
+        listAllOrigin.append(ElfeSylvain())
+        listAllOrigin.append(ElfeNoir())
+        listAllOrigin.append(Gobelin())
+        listAllOrigin.append(Ogre())
+        listAllOrigin.append(SemieHomme())
+        
+        for myOrigin:Origin in listAllOrigin {
+            if(myOrigin.isOriginValid(anotherStat: myStat)){
+                pickerData.append(myOrigin.getNameOrigin())
+            }
+        }
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerData.count
+    }
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        return pickerData[row]
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
