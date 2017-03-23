@@ -17,6 +17,18 @@
 		8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */; };
 		8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7D1E7BF28300565F9F /* Origin.swift */; };
 		8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */; };
+		8BA1CD821E83DDC300565F9F /* Barbare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD811E83DDC300565F9F /* Barbare.swift */; };
+		8BA1CD841E83DE2400565F9F /* Nain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD831E83DE2400565F9F /* Nain.swift */; };
+		8BA1CD861E83DEBD00565F9F /* HautElfe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD851E83DEBD00565F9F /* HautElfe.swift */; };
+		8BA1CD881E83DFBA00565F9F /* DemiElfe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD871E83DFBA00565F9F /* DemiElfe.swift */; };
+		8BA1CD8A1E83E01100565F9F /* ElfeSylvain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD891E83E01100565F9F /* ElfeSylvain.swift */; };
+		8BA1CD8C1E83E05C00565F9F /* ElfeNoir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD8B1E83E05C00565F9F /* ElfeNoir.swift */; };
+		8BA1CD8E1E83E0AC00565F9F /* Orque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD8D1E83E0AC00565F9F /* Orque.swift */; };
+		8BA1CD901E83E10500565F9F /* DemiOrque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD8F1E83E10500565F9F /* DemiOrque.swift */; };
+		8BA1CD921E83E16100565F9F /* Gobelin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD911E83E16100565F9F /* Gobelin.swift */; };
+		8BA1CD941E83E1E800565F9F /* SemieHomme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD931E83E1E800565F9F /* SemieHomme.swift */; };
+		8BA1CD961E83E23A00565F9F /* Ogre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD951E83E23A00565F9F /* Ogre.swift */; };
+		8BA1CD981E83E28700565F9F /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD971E83E28700565F9F /* Gnome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,18 @@
 		8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Statistique.swift; path = "Application de ouf/Class/Statistique.swift"; sourceTree = "<group>"; };
 		8BA1CD7D1E7BF28300565F9F /* Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
 		8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Humain.swift; path = "Application de ouf/Humain.swift"; sourceTree = "<group>"; };
+		8BA1CD811E83DDC300565F9F /* Barbare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Barbare.swift; path = "Application de ouf/Class/Barbare.swift"; sourceTree = "<group>"; };
+		8BA1CD831E83DE2400565F9F /* Nain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nain.swift; path = "Application de ouf/Class/Nain.swift"; sourceTree = "<group>"; };
+		8BA1CD851E83DEBD00565F9F /* HautElfe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HautElfe.swift; path = "Application de ouf/Class/HautElfe.swift"; sourceTree = "<group>"; };
+		8BA1CD871E83DFBA00565F9F /* DemiElfe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemiElfe.swift; path = "Application de ouf/Class/DemiElfe.swift"; sourceTree = "<group>"; };
+		8BA1CD891E83E01100565F9F /* ElfeSylvain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElfeSylvain.swift; path = "Application de ouf/Class/ElfeSylvain.swift"; sourceTree = "<group>"; };
+		8BA1CD8B1E83E05C00565F9F /* ElfeNoir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElfeNoir.swift; path = "Application de ouf/Class/ElfeNoir.swift"; sourceTree = "<group>"; };
+		8BA1CD8D1E83E0AC00565F9F /* Orque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orque.swift; path = "Application de ouf/Class/Orque.swift"; sourceTree = "<group>"; };
+		8BA1CD8F1E83E10500565F9F /* DemiOrque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemiOrque.swift; path = "Application de ouf/Class/DemiOrque.swift"; sourceTree = "<group>"; };
+		8BA1CD911E83E16100565F9F /* Gobelin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gobelin.swift; path = "Application de ouf/Class/Gobelin.swift"; sourceTree = "<group>"; };
+		8BA1CD931E83E1E800565F9F /* SemieHomme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SemieHomme.swift; path = "Application de ouf/Class/SemieHomme.swift"; sourceTree = "<group>"; };
+		8BA1CD951E83E23A00565F9F /* Ogre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ogre.swift; path = "Application de ouf/Class/Ogre.swift"; sourceTree = "<group>"; };
+		8BA1CD971E83E28700565F9F /* Gnome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gnome.swift; path = "Application de ouf/Class/Gnome.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,18 @@
 		8B587E651E6851E000DBA276 = {
 			isa = PBXGroup;
 			children = (
+				8BA1CD971E83E28700565F9F /* Gnome.swift */,
+				8BA1CD951E83E23A00565F9F /* Ogre.swift */,
+				8BA1CD931E83E1E800565F9F /* SemieHomme.swift */,
+				8BA1CD911E83E16100565F9F /* Gobelin.swift */,
+				8BA1CD8F1E83E10500565F9F /* DemiOrque.swift */,
+				8BA1CD8D1E83E0AC00565F9F /* Orque.swift */,
+				8BA1CD8B1E83E05C00565F9F /* ElfeNoir.swift */,
+				8BA1CD891E83E01100565F9F /* ElfeSylvain.swift */,
+				8BA1CD871E83DFBA00565F9F /* DemiElfe.swift */,
+				8BA1CD851E83DEBD00565F9F /* HautElfe.swift */,
+				8BA1CD831E83DE2400565F9F /* Nain.swift */,
+				8BA1CD811E83DDC300565F9F /* Barbare.swift */,
 				8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */,
 				8BA1CD7D1E7BF28300565F9F /* Origin.swift */,
 				8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */,
@@ -269,10 +305,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */,
+				8BA1CD821E83DDC300565F9F /* Barbare.swift in Sources */,
+				8BA1CD961E83E23A00565F9F /* Ogre.swift in Sources */,
+				8BA1CD8E1E83E0AC00565F9F /* Orque.swift in Sources */,
 				8B587E741E6851E900DBA276 /* ViewController.swift in Sources */,
+				8BA1CD841E83DE2400565F9F /* Nain.swift in Sources */,
+				8BA1CD8A1E83E01100565F9F /* ElfeSylvain.swift in Sources */,
+				8BA1CD881E83DFBA00565F9F /* DemiElfe.swift in Sources */,
 				8B587E721E6851E900DBA276 /* AppDelegate.swift in Sources */,
+				8BA1CD901E83E10500565F9F /* DemiOrque.swift in Sources */,
 				8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */,
 				8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */,
+				8BA1CD981E83E28700565F9F /* Gnome.swift in Sources */,
+				8BA1CD8C1E83E05C00565F9F /* ElfeNoir.swift in Sources */,
+				8BA1CD941E83E1E800565F9F /* SemieHomme.swift in Sources */,
+				8BA1CD921E83E16100565F9F /* Gobelin.swift in Sources */,
+				8BA1CD861E83DEBD00565F9F /* HautElfe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
