@@ -114,7 +114,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hwg-xS-hF7">
-                                <frame key="frameInset" minX="62" minY="236" width="250" height="255"/>
+                                <frame key="frameInset" minX="62" minY="236" width="250" height="253"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Force :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4L-to-98O">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -251,7 +251,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8kw-Fk-MK3" id="q1N-D4-uiS">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -281,10 +281,18 @@
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aX4-tl-n9A">
                                 <frame key="frameInset" minY="147" height="71"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5xW-xf-bzq" id="359-dW-ycF"/>
+                                    <outlet property="delegate" destination="5xW-xf-bzq" id="bSO-Y9-a4j"/>
+                                </connections>
                             </pickerView>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1a-h9-0K3">
                                 <frame key="frameInset" minY="260" height="122"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5xW-xf-bzq" id="mgd-tn-D1I"/>
+                                    <outlet property="delegate" destination="5xW-xf-bzq" id="ncP-ep-pBQ"/>
+                                </connections>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
