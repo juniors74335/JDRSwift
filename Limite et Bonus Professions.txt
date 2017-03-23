@@ -1,0 +1,50 @@
+Guerrier :
+	Force Mini = 12
+	Courage Mini = 12
+	EV Origine + 5 (Sauf Barbare +0)
+	Entre +1, 0 ou -1 d'attaque pour -1, 0 ou +1 de parade
+Assassin : 
+	Adresse Mini = 13
+	Attaque = 11
+	Parade = 8
+Voleur : 
+	Adresse Mini = 12
+Prêtre :
+	Charisme Mini = 12
+	EA = 20
+Mage : 
+	EV = EV Origine - 30% (-33% pour les Humains)
+	EA = 30
+Paladin : 
+	Charisme Mini = 11
+	Courage Mini = 12
+	Force Mini = 9
+	Intelligence Mini = 10
+	EV = EV Origine + 2
+	EA = 10
+Ranger : 
+	Adresse Mini = 10
+	Charisme Mini = 10
+	Peut enlever 1 point d'une carac pour le rajouter dans une autre.
+Ménestrel
+	Adresse Mini = 11
+	Charisme Mini = 12
+Pirate :
+	Adresse Mini = 11
+	Courage Mini = 11
+Marchand : 
+	Intelligence Mini = 12
+	Charisme Mini = 11
+	-1 Parade ou Attaque
+	+1 Intelligence ou Charisme
+Ingénieur : 
+	Adresse Mini = 11
+	-1 Parade ou Attaque
+	+1 Intelligence ou Adresse
+Noble : 
+	Intelligence Mini = 10
+	Charisme Mini = 11
+	Or de départ x 2
+	Attaque = 7
+	Parade = 9
+	

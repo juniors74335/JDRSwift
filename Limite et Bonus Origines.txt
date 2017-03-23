@@ -1,0 +1,75 @@
+Humain : 
+	EV = 30
+Barbare :
+	Force Mini = 13
+	Courage Mini = 12
+	EV = 35
+	Parade -1
+	Attaque +1
+Nain : 
+	Force Mini = 12
+	Courage Mini = 11
+	EV = 35
+Haut Elfe : 
+	Charisme Mini = 12
+	Adresse Mini = 12
+	Intelligence Mini = 11
+	Force Maxi = 12
+	EV = 25
+	Charisme +1 au niveau 2 et 3
+Demi-Elfe : 
+	Charisme Mini = 10
+	Adresse Mini = 11
+	EV = 28
+Elfe Sylvain : 
+	Charisme Mini = 12
+	Adresse Mini = 10
+	Force Maxi = 11
+	EV = 25
+	Charisme +1 au niveau 2 et 3
+Elfe Noir : 
+	Adresse Mini = 13
+	Intelligence Mini = 12
+	Force Maxi = 12
+	EV = 25
+Orque :
+	Force Mini = 12
+	Intelligence Maxi = 8
+	Courage Maxi = 10
+	EV = 35
+	Parade -1
+	Attaque +1
+Demi-Orque : 
+	Force Mini = 12
+	Intelligence Maxi = 10
+	Adresse Maxi = 10
+	EV = 35
+Gobelin : 
+	Intelligence Maxi = 10
+	Charisme Maxi = 8
+	Courage Maxi = 10
+	Force Maxi = 9
+	EV = 20
+Semi-Homme : 
+	Courage Mini = 12
+	Intelligence Mini = 10
+	Force Mini = 10
+	EV = 25
+Ogre :
+	Charisme Maxi = 10
+	Adresse Maxi = 11
+	Intelligence Maxi = 9
+	Force Mini = 13
+	EV = 45
+	Parade -1
+	Attaque +1	
+Gnôme : 
+	Adresse Mini = 13
+	Intelligence Mini = 10
+	Force Maxi = 8 
+	EV = 15
+	Attaque +2
+	Parade -2
+
+
+	
