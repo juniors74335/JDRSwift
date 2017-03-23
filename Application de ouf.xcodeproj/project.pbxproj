@@ -14,6 +14,7 @@
 		8B587E7C1E6851E900DBA276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B587E7A1E6851E900DBA276 /* LaunchScreen.storyboard */; };
 		8B587E871E6851E900DBA276 /* Application_de_oufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E861E6851E900DBA276 /* Application_de_oufTests.swift */; };
 		8B587E921E6851E900DBA276 /* Application_de_oufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */; };
+		8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */; };
 		8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */; };
 		8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7D1E7BF28300565F9F /* Origin.swift */; };
 		8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */; };
@@ -50,6 +51,7 @@
 		8B587E8D1E6851E900DBA276 /* Application de oufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Application de oufUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_de_oufUITests.swift; sourceTree = "<group>"; };
 		8B587E931E6851EA00DBA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Statistique.swift; path = "Application de ouf/Class/Statistique.swift"; sourceTree = "<group>"; };
 		8BA1CD7D1E7BF28300565F9F /* Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
 		8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Humain.swift; path = "Application de ouf/Humain.swift"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				8B587E781E6851E900DBA276 /* Assets.xcassets */,
 				8B587E7A1E6851E900DBA276 /* LaunchScreen.storyboard */,
 				8B587E7D1E6851E900DBA276 /* Info.plist */,
+				8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */,
 			);
 			path = "Application de ouf";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */,
 				8BA1CD7C1E7BEECF00565F9F /* Statistique.swift in Sources */,
 				8B587E741E6851E900DBA276 /* ViewController.swift in Sources */,
 				8B587E721E6851E900DBA276 /* AppDelegate.swift in Sources */,
