@@ -21,7 +21,7 @@ class Pretre: Metier {
         list.append(Gobelin())
         
         
-        super.init(_statMax: Statistique.init(_force: 14, _charisme: 14, _adresse: 14, _courage: 14, _Intelligence: 14), _statMin: Statistique.init(_force: 7, _charisme: 12, _adresse: 7, _courage: 7, _Intelligence: 7), _metier:"Pretre", _listOrigin:list);
+        super.init(_statMax: Statistique.init(_force: 14, _charisme: 14, _adresse: 14, _courage: 14, _Intelligence: 14), _statMin: Statistique.init(_force: 7, _charisme: 11, _adresse: 7, _courage: 7, _Intelligence: 7), _metier:"Pretre", _listOrigin:list);
     }
 
 }
