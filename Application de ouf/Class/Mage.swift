@@ -25,6 +25,14 @@ class Mage: Metier{
         self.listCompPassive.append("Erudition");
         self.listCompPassive.append("Récupération");
         self.listCompPassive.append("Runes bizarres");
+        
+        
+        self.listCompChoisir.append("Appel des renforts")
+        self.listCompChoisir.append("Chef de groupe")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Faribole")
+        self.listCompChoisir.append("Langues des monstres")
+        self.listCompChoisir.append("Premiers soins")
     }
 
 }

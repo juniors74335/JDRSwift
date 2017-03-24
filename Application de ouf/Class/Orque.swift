@@ -19,6 +19,14 @@ class Orque: Origin {
         self.listCompPassive.append("Instinct de survie");
         self.listCompPassive.append("Sentir des pieds");
         self.listCompPassive.append("Tête vide");
+        
+        self.listCompChoisir.append("Armes de bourrin")
+        self.listCompChoisir.append("Chercher des noises")
+        self.listCompChoisir.append("Fouiller dans les poubelles")
+        self.listCompChoisir.append("Intimider")
+        self.listCompChoisir.append("Truc de mauviette")
+
+
     }
 
 }

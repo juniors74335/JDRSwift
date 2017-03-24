@@ -19,6 +19,14 @@ class Marchand: Metier {
         self.listCompPassive.append("Erudition");
         self.listCompPassive.append("Fariboles");
         self.listCompPassive.append("Méfiance");
+        
+        
+        self.listCompChoisir.append("Chef de groupe")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Cuistot")
+        self.listCompChoisir.append("Forgeron")
+        self.listCompChoisir.append("Instinct du trésor")
+        self.listCompChoisir.append("Runes bizarres")
     }
 
 }

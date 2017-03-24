@@ -16,6 +16,17 @@ class DemiElfe: Origin {
         self.listCompPassive.append("Détection");
         self.listCompPassive.append("Chouraver");
         self.listCompPassive.append("Méfiance");
+        
+        self.listCompChoisir.append("Bricolo du dimanche")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Fouiller dans les poubelles")
+        self.listCompChoisir.append("Mendier et pleurnicher")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Tirer correctement")
+
+
     }
 
 }

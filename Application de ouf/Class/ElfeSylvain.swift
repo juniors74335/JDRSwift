@@ -18,6 +18,14 @@ class ElfeSylvain: Origin {
         self.listCompPassive.append("Tirer correctement");
         self.listCompPassive.append("Tomber dans les pièges");
         
+        self.listCompChoisir.append("Comprendre les animaux")
+        self.listCompChoisir.append("Déplacement silencieux")
+        self.listCompChoisir.append("Jonglage et danse")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Pister")
+        self.listCompChoisir.append("Tête vide")
+
+        
     }
 
 }

@@ -18,6 +18,15 @@ class Guerrier: Metier {
         
         self.listCompPassive.append("Armes de bourrin");
         self.listCompPassive.append("Bourre-pif");
+        
+        
+        self.listCompChoisir.append("Ambidextrie")
+        self.listCompChoisir.append("Chercher des noises")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Forgeron")
+        self.listCompChoisir.append("Intimider")
+        self.listCompChoisir.append("Tirer correctement")
+        self.listCompChoisir.append("Truc de mauviette")
     }
     
   

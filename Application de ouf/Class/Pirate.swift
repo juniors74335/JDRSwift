@@ -20,6 +20,14 @@ class Pirate: Metier {
         self.listCompPassive.append("Chouraver");
         self.listCompPassive.append("Escalader");
         self.listCompPassive.append("Nager");
+        
+        
+        self.listCompChoisir.append("Détection")
+        self.listCompChoisir.append("Fouiller dans les poubelles")
+        self.listCompChoisir.append("Instinct du trésor")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Mendier et pleurnicher")
+        self.listCompChoisir.append("Tirer correctement")
     }
 
 }

@@ -20,6 +20,16 @@ class Voleur: Metier {
         self.listCompPassive.append("Déplacement silencieux");
         self.listCompPassive.append("Détection");
         self.listCompPassive.append("Serrurier");
+        
+        
+        self.listCompChoisir.append("Arnaque et carambouille")
+        self.listCompChoisir.append("Désamorcer")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Fouiller dans les poubelles")
+        self.listCompChoisir.append("Frapper lâchement")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Ressemble à rien")
     }
 
 }

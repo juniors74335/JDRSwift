@@ -17,6 +17,17 @@ class SemieHomme: Origin {
         self.listCompPassive.append("Cuistot");
         self.listCompPassive.append("Instinct de survie");
         self.listCompPassive.append("Ressemble à rien");
+        
+        
+        self.listCompChoisir.append("Appel des renforts")
+        self.listCompChoisir.append("Chouraver")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Fariboles")
+        self.listCompChoisir.append("Fouiller dans les poubelles")
+        self.listCompChoisir.append("Frapper lâchement")
+        self.listCompChoisir.append("Instinct du trésor")
+        self.listCompChoisir.append("Mendier et pleurnicher")
+        self.listCompChoisir.append("Tirer correctement(restriction sur les armes)")
     }
 
 }

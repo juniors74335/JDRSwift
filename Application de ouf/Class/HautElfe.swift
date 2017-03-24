@@ -15,6 +15,16 @@ class HautElfe: Origin {
         self.listCompPassive.append("Erudition");
         self.listCompPassive.append("Runes bizarres");
         self.listCompPassive.append("Tomber dans les pièges");
+        
+        self.listCompChoisir.append("Chef de groupe")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Jonglage et dans")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Premiers soins")
+        self.listCompChoisir.append("Tirer correctement")
+
+
+
     }
 
 }
