@@ -16,6 +16,7 @@
 		8B587E921E6851E900DBA276 /* Application_de_oufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587E911E6851E900DBA276 /* Application_de_oufUITests.swift */; };
 		8B7F09201E83E26E00C12BE7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */; };
 		8B7F09221E851EC200C12BE7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7F09211E851EC200C12BE7 /* data.json */; };
+		8B7F09241E855E4100C12BE7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F09231E855E4100C12BE7 /* Player.swift */; };
 		8B99E3E31E83CD6F00B874C3 /* Metier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E21E83CD6F00B874C3 /* Metier.swift */; };
 		8B99E3E51E83D14100B874C3 /* Guerrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E41E83D14100B874C3 /* Guerrier.swift */; };
 		8B99E3E71E83DEAE00B874C3 /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99E3E61E83DEAE00B874C3 /* Mage.swift */; };
@@ -79,6 +80,7 @@
 		8B587E931E6851EA00DBA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B7F091F1E83E26E00C12BE7 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		8B7F09211E851EC200C12BE7 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "Application de ouf/data.json"; sourceTree = "<group>"; };
+		8B7F09231E855E4100C12BE7 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8B99E3E21E83CD6F00B874C3 /* Metier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metier.swift; sourceTree = "<group>"; };
 		8B99E3E41E83D14100B874C3 /* Guerrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guerrier.swift; sourceTree = "<group>"; };
 		8B99E3E61E83DEAE00B874C3 /* Mage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mage.swift; path = "Application de ouf/Class/Mage.swift"; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				8BA1CD7F1E7BFC9F00565F9F /* Humain.swift */,
 				8BA1CD7D1E7BF28300565F9F /* Origin.swift */,
 				8BA1CD7B1E7BEECF00565F9F /* Statistique.swift */,
+				8B7F09231E855E4100C12BE7 /* Player.swift */,
 			);
 			name = Class;
 			path = ..;
@@ -379,6 +382,7 @@
 				8B99E3F71E83E06000B874C3 /* Marchand.swift in Sources */,
 				8B99E3E91E83DF3B00B874C3 /* Assassin.swift in Sources */,
 				8BA1CD801E7BFC9F00565F9F /* Humain.swift in Sources */,
+				8B7F09241E855E4100C12BE7 /* Player.swift in Sources */,
 				8B99E3FB1E83E0A900B874C3 /* Noble.swift in Sources */,
 				8B99E3F31E83E01C00B874C3 /* Menestrel.swift in Sources */,
 				8BA1CD7E1E7BF28300565F9F /* Origin.swift in Sources */,

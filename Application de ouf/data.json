@@ -35,7 +35,9 @@ class Player {
     let comp2: String
     let compP: String
     
-    function WriteJSON(String url){
+    function WriteJSON(url:String){
+        let dataDictionnary = [String:Any]()
+        dataDictionnary.
         
     }
     
