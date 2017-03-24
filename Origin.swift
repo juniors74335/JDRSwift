@@ -12,6 +12,8 @@ class Origin {
     var statMax:Statistique
     var statMin:Statistique
     var myOrigin:String
+    var listCompPassive:[String] = []
+    var listCompChoisir:[String] = []
     
     init(_statMax:Statistique,_statMin:Statistique,_Origin:String){
         statMax = _statMax;
