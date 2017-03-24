@@ -13,6 +13,8 @@ class Metier {
     var statMin:Statistique
     var myMetier:String
     var listOriginValid:[Origin]
+    var listCompPassive:[String] = []
+    var listCompChoisir:[String] = []
     
     init(_statMax:Statistique,_statMin:Statistique, _metier:String, _listOrigin:[Origin]){
         statMax = _statMax;
