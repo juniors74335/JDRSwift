@@ -15,6 +15,18 @@ class Nain: Origin {
         self.listCompPassive.append("Instinct du trésor");
         self.listCompPassive.append("Pénible");
         self.listCompPassive.append("Radin");
+        
+        self.listCompChoisir.append("Appel des renforts")
+        self.listCompChoisir.append("Arnaque et carambouille")
+        self.listCompChoisir.append("Bourre-pif")
+        self.listCompChoisir.append("Bricolo du dimanche")
+        self.listCompChoisir.append("Chercher des noises")
+        self.listCompChoisir.append("Fariboles")
+        self.listCompChoisir.append("Forgeron")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Truc de mauviette")
+
+
     }
 
 }

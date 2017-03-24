@@ -16,6 +16,19 @@ class Barbare: Origin {
         self.listCompPassive.append("Chercher des noises");
         self.listCompPassive.append("Sentir des pieds");
         self.listCompPassive.append("Tête vide");
+        
+        self.listCompChoisir.append("Armes de bourrin")
+        self.listCompChoisir.append("Bourre-pif")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Intimider")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Pister")
+        self.listCompChoisir.append("Tirer correctement")
+        self.listCompChoisir.append("Truc de mauviette")
+
+
+
     }
 
 }
