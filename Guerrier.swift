@@ -16,7 +16,8 @@ class Guerrier: Metier {
        
         super.init(_statMax: Statistique.init(_force: 14, _charisme: 14, _adresse: 14, _courage: 14, _Intelligence: 14), _statMin: Statistique.init(_force: 11, _charisme: 7, _adresse: 7, _courage: 11, _Intelligence: 7), _metier:"Guerrier", _listOrigin:list);
         
-        self.listCompPassive.append("Armes de bourrin"); 
+        self.listCompPassive.append("Armes de bourrin");
+        self.listCompPassive.append("Bourre-pif");
     }
     
   
