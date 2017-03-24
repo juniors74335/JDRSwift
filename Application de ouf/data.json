@@ -1,0 +1,42 @@
+//
+//  data.json
+//  Application de ouf
+//
+//  Created by Developer on 24/03/2017.
+//  Copyright © 2017 Developer. All rights reserved.
+//
+
+import Foundation
+
+class Player {
+    
+    let name: String
+    let sex: String
+    let ev: Int
+    let ea: Int
+    let magPhy: Int
+    let magPsy: Int
+    let resMag: Int
+    let exp: Int
+    let destin: Int
+    let niveau: Int
+    let protection: Int
+    let strength: Int
+    let intelligence: Int
+    let courage: Int
+    let charisme: Int
+    let dexterity: Int
+    let gold: Int
+    let origin: String
+    let metier: String
+    let attack: Int
+    let parade: Int
+    let comp1: String
+    let comp2: String
+    let compP: String
+    
+    function WriteJSON(String url){
+        
+    }
+    
+}
