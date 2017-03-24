@@ -38,9 +38,9 @@ class Metier {
     
     func isMetierValid(anotherStat:Statistique, _jorigin:Origin) -> Bool{
         var myReturn = true;
-        myReturn =  !statMax.isStatSuperieur(_stat: anotherStat);
-        myReturn = !statMin.isStatInferieur(_stat:anotherStat);
-        myReturn = self.isOriginMetierNonValid(_jorigin:_jorigin);
+        myReturn = myReturn && !statMax.isStatSuperieur(_stat: anotherStat);
+        myReturn = myReturn && !statMin.isStatInferieur(_stat:anotherStat);
+        myReturn = myReturn && self.isOriginMetierNonValid(_jorigin:_jorigin);
         
         return myReturn
     }

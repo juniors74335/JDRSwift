@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PickerViewController: UIViewController {
+class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
 
 
@@ -16,11 +16,17 @@ class PickerViewController: UIViewController {
     	
     @IBOutlet weak var ListeOrigin: UIPickerView!
     
-    var listAllOrigin:[Origin] = []
+    var listAllOrigin:[Origin]!
     
-    var pickerData: [String] = []
+    var listAllMetier:[Metier]!
     
-    weak var myStat: Statistique!
+    var originChoosen:Origin!
+    
+    var originPickerData: [String] = []
+    
+    var metierPickerData: [String] = []
+    
+    var myStat: Statistique!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,25 +50,78 @@ class PickerViewController: UIViewController {
         
         for myOrigin:Origin in listAllOrigin {
             if(myOrigin.isOriginValid(anotherStat: myStat)){
-                pickerData.append(myOrigin.getNameOrigin())
+                originPickerData.append(myOrigin.getNameOrigin())
             }
         }
         
+        /*self.ListeOrigin.dataSource = self
+        self.ListeOrigin.delegate = self
+        self.ListeMetier.dataSource = self
+        self.ListeMetier.delegate = self*/
         
         
         // Do any additional setup after loading the view.
     }
 
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
+
     }
     
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerData.count
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        if(pickerView == ListeOrigin){
+            return originPickerData.count
+        }
+        if(pickerView == ListeMetier){
+            return metierPickerData.count
+        }
+        return 0;
     }
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
-        return pickerData[row]
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if(pickerView == ListeOrigin){
+            return originPickerData[row]
+        }
+        if(pickerView == ListeMetier){
+            return metierPickerData[row]
+        }
+        return "";
     }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        // This method is triggered whenever the user makes a change to the picker selection.
+        // The parameter named row and component represents what was selected.
+        if(pickerView == ListeOrigin){
+            for myOrigin in listAllOrigin {
+                if (myOrigin.getNameOrigin() == originPickerData[row]) {
+                    originChoosen = myOrigin
+                }
+            }
+            
+            listAllMetier = [Metier]();
+            listAllMetier.append(Guerrier())
+            listAllMetier.append(Mage())
+            listAllMetier.append(Pretre())
+            listAllMetier.append(Paladin())
+            listAllMetier.append(Noble())
+            listAllMetier.append(Ingenieur())
+            listAllMetier.append(Marchand())
+            listAllMetier.append(Menestrel())
+            listAllMetier.append(Ranger())
+            listAllMetier.append(Assassin())
+            listAllMetier.append(Voleur())
+            
+            metierPickerData = [String]()
+            
+            for myMetier:Metier in listAllMetier {
+                if(myMetier.isMetierValid(anotherStat: myStat, _jorigin: originChoosen)){
+                    metierPickerData.append(myMetier.getNameMetier())
+                }
+            }
+            ListeMetier.reloadAllComponents()
+        }
+    }
+
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

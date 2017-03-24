@@ -27,8 +27,8 @@ class Origin {
     
     func isOriginValid(anotherStat:Statistique) -> Bool{
         var myReturn = true;
-        myReturn =  !statMax.isStatSuperieur(_stat: anotherStat);
-        myReturn = !statMin.isStatInferieur(_stat:anotherStat);
+        myReturn = myReturn && !statMax.isStatSuperieur(_stat: anotherStat);
+        myReturn = myReturn && !statMin.isStatInferieur(_stat:anotherStat);
     
         return myReturn
     }
