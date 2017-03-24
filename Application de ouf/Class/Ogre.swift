@@ -19,6 +19,13 @@ class Ogre: Origin {
         self.listCompPassive.append("Intimider");
         self.listCompPassive.append("Sentir des pieds");
         self.listCompPassive.append("Tête vide");
+        
+        
+        self.listCompChoisir.append("Bourre-pif")
+        self.listCompChoisir.append("Chercher des noises")
+        self.listCompChoisir.append("Fouiller dans les poubelles")
+        self.listCompChoisir.append("Langues des monstres")
+        self.listCompChoisir.append("Truc de mauviette")
     }
 
 }

@@ -21,6 +21,12 @@ class Gobelin: Origin {
         self.listCompPassive.append("Sentir des pieds");
         self.listCompPassive.append("Tête vide");
         
+        
+        self.listCompChoisir.append("Bricolo du dimanche")
+        self.listCompChoisir.append("Désamorcer")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Forgeron")
+        
     }
     
 }

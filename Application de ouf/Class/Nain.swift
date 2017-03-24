@@ -25,6 +25,8 @@ class Nain: Origin {
         self.listCompChoisir.append("Forgeron")
         self.listCompChoisir.append("Méfiance")
         self.listCompChoisir.append("Truc de mauviette")
+        self.listCompChoisir.append("tirer correctement(hache de jet)")
+
 
 
     }

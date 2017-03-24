@@ -17,6 +17,18 @@ class ElfeNoir: Origin {
         self.listCompPassive.append("Silencieux");
         self.listCompPassive.append("Détection");
         self.listCompPassive.append("Tirer correctement");
+        
+        self.listCompChoisir.append("Ambidextrie")
+        self.listCompChoisir.append("Chouraver")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Forgeron")
+        self.listCompChoisir.append("Frapper lâchement")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Pister")
+        self.listCompChoisir.append("Runes bizarres")
+
+
     }
 
 }

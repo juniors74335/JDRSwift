@@ -18,6 +18,16 @@ class Gnome: Origin {
         self.listCompPassive.append("Chouraver");
         self.listCompPassive.append("Déplacement silencieux");
         self.listCompPassive.append("Instinct du trésor");
+        
+        
+        self.listCompChoisir.append("Comprendre les animaux")
+        self.listCompChoisir.append("Désamorcer")
+        self.listCompChoisir.append("Détection")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Jonglage et danse")
+        self.listCompChoisir.append("Mendier et pleurnicher")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Serrurier")
     }
 
 }
