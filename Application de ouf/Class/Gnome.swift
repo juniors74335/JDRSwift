@@ -12,6 +12,12 @@ class Gnome: Origin {
     
     init(){
         super.init(_statMax: Statistique.init(_force: 8, _charisme: 14, _adresse: 14, _courage: 14, _Intelligence: 14), _statMin: Statistique.init(_force: 7, _charisme: 7, _adresse: 12, _courage: 7, _Intelligence: 9), _Origin: "Gnome");
+        self.listCompPassive.append("Ambidextrie");
+        self.listCompPassive.append("Appel des renforts");
+        self.listCompPassive.append("Chevaucher");
+        self.listCompPassive.append("Chouraver");
+        self.listCompPassive.append("Déplacement silencieux");
+        self.listCompPassive.append("Instinct du trésor");
     }
 
 }
