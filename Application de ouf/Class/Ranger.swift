@@ -19,6 +19,17 @@ class Ranger: Metier {
         self.listCompPassive.append("Chevaucher");
         self.listCompPassive.append("Nager");
         self.listCompPassive.append("Pister");
+        
+        
+        self.listCompChoisir.append("Ambidextrie")
+        self.listCompChoisir.append("Chef de groupe")
+        self.listCompChoisir.append("Comprendre les animaux")
+        self.listCompChoisir.append("Désamorcer")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Premiers soins")
+        self.listCompChoisir.append("Tirer correctement")
     }
 
 }

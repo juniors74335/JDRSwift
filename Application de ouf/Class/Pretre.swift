@@ -25,6 +25,15 @@ class Pretre: Metier {
         self.listCompPassive.append("Erudition");
         self.listCompPassive.append("Méfiance");
         self.listCompPassive.append("Récupération");
+        
+        
+        self.listCompChoisir.append("Arnaque et carambouille")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Cuistot")
+        self.listCompChoisir.append("Fariboles")
+        self.listCompChoisir.append("Premier soins")
+        self.listCompChoisir.append("Rabin")
+        self.listCompChoisir.append("Runes bizarres")
     }
 
 }

@@ -20,6 +20,13 @@ class Menestrel: Metier {
         self.listCompPassive.append("Fariboles");
         self.listCompPassive.append("Jonglage et danse");
         self.listCompPassive.append("Naïveté touchante");
+        
+        
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Mendier et pleurnicher")
+        self.listCompChoisir.append("Premiers soins")
+        self.listCompChoisir.append("Runes bizarres")
+        self.listCompChoisir.append("Tirer correctement")
     }
 
 }

@@ -18,6 +18,16 @@ class Assassin: Metier {
         self.listCompPassive.append("Déplacement silencieux");
         self.listCompPassive.append("Frapper lâchement");
         self.listCompPassive.append("Tirer correctement");
+        
+        
+        self.listCompChoisir.append("Ambidextrie")
+        self.listCompChoisir.append("Chercher des noises")
+        self.listCompChoisir.append("Chevaucher")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Escalader")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Ressemble à rien")
     }
 
 }

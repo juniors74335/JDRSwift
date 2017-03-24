@@ -19,6 +19,14 @@ class Ingenieur: Metier {
         self.listCompPassive.append("Forgeron");
         self.listCompPassive.append("Ressemble à rien");
         self.listCompPassive.append("Serrurier");
+        
+        
+        self.listCompChoisir.append("Arnaque et carambouille")
+        self.listCompChoisir.append("Chef de groupe")
+        self.listCompChoisir.append("Jonglage et danse")
+        self.listCompChoisir.append("Méfiance")
+        self.listCompChoisir.append("Nager")
+        self.listCompChoisir.append("Runes bizarres")
     }
 
 }

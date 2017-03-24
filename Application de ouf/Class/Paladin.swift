@@ -24,6 +24,13 @@ class Paladin: Metier {
         self.listCompPassive.append("Chevaucher");
         self.listCompPassive.append("Intimider");
         self.listCompPassive.append("Récupération");
+        
+        
+        self.listCompChoisir.append("Armes de bourrin")
+        self.listCompChoisir.append("Chercher des noises")
+        self.listCompChoisir.append("Erudition")
+        self.listCompChoisir.append("Fariboles")
+        self.listCompChoisir.append("Premiers soins")
     }
 
 }
